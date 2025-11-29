@@ -1,0 +1,11 @@
+disease,symptoms
+Flu,"fever,cough,headache,fatigue,body aches"
+Common Cold,"cough,runny nose,sneezing,sore throat"
+Pneumonia,"fever,cough,chest pain,difficulty breathing,fatigue"
+Tuberculosis,"cough,fever,night sweats,weight loss,chest pain"
+Malaria,"fever,chills,headache,nausea,vomiting"
+Dengue,"high fever,severe headache,pain behind eyes,joint pain,rash"
+COVID-19,"fever,dry cough,fatigue,loss of taste,difficulty breathing"
+Diabetes,"increased thirst,frequent urination,extreme hunger,fatigue,blurred vision"
+Hypertension,"headache,dizziness,blurred vision,chest pain,shortness of breath"
+Migraine,"severe headache,nausea,vomiting,sensitivity to light,visual disturbances"

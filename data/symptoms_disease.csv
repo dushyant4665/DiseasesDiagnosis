@@ -1,0 +1,38 @@
+disease,symptoms
+Flu,fever,cough,headache,body pain,fatigue,chills
+Common Cold,cough,sneezing,runny nose,sore throat,mild headache
+Pneumonia,fever,cough,chest pain,difficulty breathing,fatigue,chills
+Tuberculosis,persistent cough,fever,night sweats,weight loss,chest pain
+Malaria,high fever,chills,headache,nausea,vomiting,sweating
+Dengue Fever,high fever,severe headache,pain behind eyes,joint pain,muscle pain,rash
+COVID-19,fever,dry cough,fatigue,loss of taste,loss of smell,difficulty breathing
+Diabetes,increased thirst,frequent urination,extreme hunger,fatigue,blurred vision,slow healing
+Hypertension,headache,dizziness,blurred vision,chest pain,shortness of breath
+Migraine,severe headache,nausea,vomiting,sensitivity to light,sensitivity to sound
+Asthma,wheezing,shortness of breath,chest tightness,cough,difficulty breathing
+Bronchitis,cough,mucus production,fatigue,shortness of breath,chest discomfort,fever
+Sinusitis,facial pain,nasal congestion,headache,thick nasal discharge,reduced sense of smell
+Gastritis,stomach pain,nausea,vomiting,indigestion,loss of appetite,bloating
+Food Poisoning,nausea,vomiting,diarrhea,stomach cramps,fever,weakness
+Appendicitis,abdominal pain,nausea,vomiting,loss of appetite,fever,constipation
+Urinary Tract Infection,painful urination,frequent urination,cloudy urine,lower abdominal pain,fever
+Kidney Stones,severe pain,blood in urine,nausea,vomiting,fever,frequent urination
+Chickenpox,fever,headache,loss of appetite,itchy rash,red spots,blisters
+Measles,fever,cough,runny nose,red eyes,rash,white spots in mouth
+Arthritis,joint pain,joint stiffness,swelling,reduced range of motion,fatigue
+Anemia,fatigue,weakness,pale skin,shortness of breath,dizziness,cold hands and feet
+Thyroid Disorder,fatigue,weight changes,mood changes,hair loss,irregular heartbeat
+Depression,persistent sadness,loss of interest,fatigue,sleep changes,appetite changes,difficulty concentrating
+Anxiety Disorder,excessive worry,restlessness,fatigue,difficulty concentrating,irritability,sleep problems
+Insomnia,difficulty falling asleep,waking up early,daytime fatigue,irritability,difficulty concentrating
+Allergy,sneezing,runny nose,itchy eyes,skin rash,swelling,difficulty breathing
+Eczema,itchy skin,dry skin,red patches,skin inflammation,rough patches
+Psoriasis,red patches,silvery scales,dry skin,itching,burning sensation,thick skin
+Acne,pimples,blackheads,whiteheads,oily skin,scarring,red bumps
+
+
+
+
+
+
+

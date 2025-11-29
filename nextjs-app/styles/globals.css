@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0d1117;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 40px;
+  background: #161b22;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+  background: linear-gradient(135deg, #00ffff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  color: #8b949e;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 14px;
+}
+
+.input-box {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+input {
+  flex: 1;
+  padding: 14px 18px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 0 3px rgba(0, 255, 255, 0.1);
+}
+
+button {
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #00ffff, #00d4ff);
+  border: none;
+  border-radius: 8px;
+  color: #0d1117;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.4);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  padding: 16px;
+  background: rgba(248, 81, 73, 0.1);
+  border: 1px solid #f85149;
+  border-radius: 8px;
+  color: #f85149;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.results {
+  margin-top: 32px;
+}
+
+.results h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #00ffff;
+}
+
+.prediction {
+  background: #0d1117;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #30363d;
+  transition: all 0.3s;
+}
+
+.prediction:hover {
+  border-color: #00ffff;
+  transform: translateX(4px);
+}
+
+.disease-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.confidence {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.confidence span {
+  font-size: 14px;
+  color: #8b949e;
+  min-width: 110px;
+}
+
+.bar {
+  flex: 1;
+  height: 8px;
+  background: #21262d;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00ffff, #00d4ff);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .input-box {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,20 @@
+{
+  "recommendations": {
+    "Flu": "Rest, drink plenty of fluids, take over-the-counter pain relievers. Consult a doctor if symptoms worsen.",
+    "Common Cold": "Get adequate rest, stay hydrated, use saline nasal drops. Usually resolves within 7-10 days.",
+    "Pneumonia": "Seek immediate medical attention. May require antibiotics and hospitalization.",
+    "COVID-19": "Isolate yourself, monitor oxygen levels, consult a doctor. Seek emergency care if breathing difficulty increases.",
+    "Migraine": "Rest in a dark room, apply cold compress, take prescribed medications. Identify and avoid triggers.",
+    "Diabetes": "Consult an endocrinologist for proper management. Monitor blood sugar regularly and maintain a healthy diet.",
+    "Hypertension": "Regular monitoring, lifestyle changes, medication as prescribed. Reduce salt intake and exercise regularly.",
+    "Asthma": "Use prescribed inhalers, avoid triggers, have an action plan ready. Seek emergency care for severe attacks.",
+    "default": "Consult a healthcare professional for proper diagnosis and treatment. Do not self-medicate."
+  }
+}
+
+
+
+
+
+
+

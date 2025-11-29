@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  modelsvc:
+    build: ./model
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./model:/app
+      - ./archive:/archive
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  web:
+    build: ./nextjs-app
+    ports:
+      - "3000:3000"
+    environment:
+      - MODEL_URL=http://modelsvc:8000
+    depends_on:
+      - modelsvc
+
+

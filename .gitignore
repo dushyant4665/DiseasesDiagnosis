@@ -1,0 +1,16 @@
+node_modules
+.next
+*.pkl
+*.pyc
+__pycache__
+.env
+.env.local
+dist
+build
+
+
+
+
+
+
+

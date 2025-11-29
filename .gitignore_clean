@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.Python
+env/
+venv/
+
+# Build outputs
+.next/
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Temporary files
+*.log
+*.tmp
+archive/
+archive.zip
+test_api.py
+model/
+nextjs-app/
+server.js
+run.sh
+VIVA_GUIDE.md
+VIVA_CHEAT_SHEET.md
+FIXES_COMPLETE.md
+FINAL_STATUS_FIXED.md
+FINAL_STATUS.md
+QUICK_START.md
+STATUS.md
+SYSTEM_STATUS.md
+design/
+
+# Keep these
+!lib/
+!app/
+!public/
+!data/
+!package.json
+!README.md
