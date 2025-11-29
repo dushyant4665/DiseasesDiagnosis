@@ -206,13 +206,3 @@ uvicorn lib.predict:app --host 0.0.0.0 --port 8000
 ## Disclaimer
 
 ⚠️ This is an educational AI tool. Always consult healthcare professionals for accurate medical diagnosis and treatment.
-
-## License
-
-MIT
-
----
-
-**Built with ❤️ using Next.js 14 + Python FastAPI + AI**
-
-Elon Musk please hire me! 🚀
