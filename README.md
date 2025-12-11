@@ -176,22 +176,3 @@ Use `lib/predict.py` as entry point
 ```bash
 uvicorn lib.predict:app --host 0.0.0.0 --port 8000
 ```
-
-## Troubleshooting
-
-**"Failed to connect to diagnosis service"**
-- Ensure Python server is running on port 8000
-- Check `python lib/predict.py` output for errors
-
-**"No matching diseases found"**
-- Model may not recognize symptoms
-- Try common symptoms: fever, cough, headache
-- Check spelling and use singular forms
-
-**Model file missing**
-- Run `python lib/model.py` to train model
-- Ensure `disease_model.pkl` exists in `lib/` folder
-
-## Disclaimer
-
-⚠️ This is an educational AI tool. Always consult healthcare professionals for accurate medical diagnosis and treatment.
