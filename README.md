@@ -2,17 +2,6 @@
 
 Complete full-stack AI-powered disease diagnosis application using Next.js 14 + Python FastAPI + Machine Learning.
 
-## Features
-
-- ✅ AI-powered disease prediction from symptoms
-- ✅ Real-time diagnosis with confidence scores
-- ✅ Beautiful dark-themed medical UI
-- ✅ Mobile responsive design
-- ✅ Top 3 disease predictions
-- ✅ Matched symptoms highlighting
-- ✅ Medical recommendations
-- ✅ Fast inference (<100ms)
-
 ## Tech Stack
 
 - **Frontend:** Next.js 14 (App Router) + Tailwind CSS
