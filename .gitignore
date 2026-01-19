@@ -7,8 +7,7 @@ __pycache__
 .env.local
 dist
 build
-
-
+.kaggle
 
 
 
